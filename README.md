@@ -12,3 +12,8 @@ some binaries in busybox/GNU are either bloat, or can be replicated within other
 3. sort
 
 ### if you have changes to this list, to either remove a binary or add one i either forgot about or put in the nono list, feel free to add a pull request!
+
+## extra features
+nullcore is not a place to expect extra features, as i strip mst of the binaries to their bare-minimum working straight and scrap a lot of binaries because of their pssible easy replacement with other binaries that already do something. with that said, when a friend came up with a joke idea to add, i could not ressist!
+those features, for now, are the maybe command, which returns either a 1 or a 0 exit code. when does it do it? i have no idea :] here is a list of the current extra features added to nullcore
+1. maybe.o - returns 1 or 0 randomly
