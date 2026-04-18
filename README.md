@@ -7,9 +7,30 @@ in case you are completely crazy, and want to make a userspace using nullcore, i
 ## What i will not add
 some binaries in busybox/GNU are either bloat, or can be replicated within other commands really easily. due to the nature of nullcore i will not be adding some binaries in the nature. these currently include:
 
-1. wc
-2. nl
-3. sort
+1. awk
+2. base32
+3. cut
+4. du
+5. factor
+6. fmt
+7. fold
+8. nice
+9. nl
+10. paste
+11. pr
+12. printf
+13. ptx
+14. sed
+15. seq
+16. sort
+17. sort
+18. stty
+19. sum
+20. tr
+21. uniq
+22. wc
+23. wc
+24. yes
 
 ### if you have changes to this list, to either remove a binary or add one i either forgot about or put in the nono list, feel free to add a pull request!
 
