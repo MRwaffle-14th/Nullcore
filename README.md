@@ -9,29 +9,31 @@ some binaries in busybox/GNU are either bloat, or can be replicated within other
 
 1. awk
 2. base32
-3. cut
-4. du
-5. factor
-6. find
-7. fmt
-8. fold
-9. nice
-10. nl
-11. paste
-12. pr
-13. printf
-14. ptx
-15. sed
-16. seq
-17. sort
+3. csplit
+4. cut
+5. du
+6. factor
+7. find
+8. fmt
+9. fold
+10. nice
+11. nl
+12. paste
+13. pr
+14. printf
+15. ptx
+16. sed
+17. seq
 18. sort
-19. stty
-20. sum
-21. tr
-22. uniq
-23. wc
-24. wc
-25. yes
+19. sort
+20. stty
+21. sum
+22. tee
+23. tr
+24. uniq
+25. wc
+26. wc
+27. yes
 
 ### if you have changes to this list, to either remove a binary or add one i either forgot about or put in the nono list, feel free to add a pull request!
 
